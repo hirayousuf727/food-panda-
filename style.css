@@ -1,0 +1,26 @@
+:root{
+    --primary--color: rgb(255, 0, 43);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "open sans" sans-serif;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem;
+  }
+  nav span{
+    color: var(--primary--color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  nav svg{
+    cursor: pointer;
+  }
